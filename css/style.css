@@ -1,0 +1,15 @@
+#headline {
+    text-align: center;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 700px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
