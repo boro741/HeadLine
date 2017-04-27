@@ -8,7 +8,7 @@ $.getJSON(hindu_Url, function(data){
     for(var i=0; i < hindu_articles.length; i++) {
         var article = hindu_articles[i];
         $hinduElem.append('<li class="article">'+
-                          '<a href="' + article.url + '">' + article.title + '</a>' + 
+                          '<a href="' + article.url+'"' +'target="'+'_blank">' + article.title +'</a>' + 
                          // '<img src="'+article.urlToImage+'"/>'+
                           '<p>' + article.description + '</p>' + '</li>');
     }
